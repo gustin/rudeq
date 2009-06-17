@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "rudeq"
-  s.version = "2.1.1"
+  s.version = "2.1.0.1"
   s.date = "2009-06-09"
   s.summary = "ActiveRecord-based DB-queue"
   s.email = "MatthewRudyJacobs@gmail.com"
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
     "spec/spec.opts", "spec/worker_spec.rb", "spec/spec_helper.rb", "spec/database.yml", "spec/rude_q_spec.rb", "spec/models/rude_queue.rb", "spec/models/something.rb", "spec/schema.rb",
 
-    "tasks/rude_q_tasks.rake"
+    "tasks/rails.rake", "lib/rude_q/tasks.rb"
   ]
 
   s.test_files = ["spec/rude_q_spec.rb", "spec/worker_spec.rb"]
